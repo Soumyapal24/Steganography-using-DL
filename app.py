@@ -6,7 +6,7 @@ from PIL import Image
 import cv2
 
 # Load the trained model
-MODEL_PATH = "/home/kudsit/Downloads/dl/Deep_steganography_model.h5"
+MODEL_PATH = "Deep_steganography_model.h5"
 model = load_model(MODEL_PATH)
 
 # Define image size (64x64 assumed)
